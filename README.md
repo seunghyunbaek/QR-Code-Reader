@@ -3,15 +3,17 @@ QR 코드는 URL을 QR 코드로 만든 것이다. <br/>
 
 # Introduction
 QR 코드를 스캔하고 해당 링크로 이동할 수 있는 애플리케이션 <br/>
-구현 
+
+### 주요기능
 1. QR 코드 스캔 
 2. 스캔한 URL로 연결하기
 
 # Demo
-<figure>
-   <img src="user-images.githubusercontent.com/39176041/217736895-b5cf6684-fce7-48c2-950b-b1ff36077683.jpg" width="200" height="400"/>
-   <img src="user-images.githubusercontent.com/39176041/217737503-72101a05-f05f-4d2e-a987-0da794deaf7b.jpg" width="200" height="400"/>
- </figure>
+<p>
+   <img src="https://user-images.githubusercontent.com/39176041/217736895-b5cf6684-fce7-48c2-950b-b1ff36077683.jpg" width="200" height="400"/>
+   <img src="https://user-images.githubusercontent.com/39176041/217737503-72101a05-f05f-4d2e-a987-0da794deaf7b.jpg" width="200" height="400"/>
+   <img src="https://user-images.githubusercontent.com/39176041/217742103-c60a7011-b7da-4e3e-acff-8dc17821d0c6.gif" width="200" height="400"/>
+ </p>
 
 
 
@@ -28,8 +30,8 @@ QR 코드를 스캔하고 해당 링크로 이동할 수 있는 애플리케이�
 
 세로 모드를 사용하기 위한 방법 <br/>
 1. CaptureActivity를 상속받는 Activity 클래스를 만들기 (layoout 파일은 필요하지 않다)
-2. Manifest.xml 에 설정하기 
-   1. 설정시 추가해야할 속성
-   - android:screenOrientation="portrait"
-   - android:theme="@style/zxing_CaptureTheme"
-3. ScanOption 설정 시 captureActivity 속성에 1번에서 만든 클래스로 설정해준다. 
+2. Manifest.xml 에 만든 액티비티 설정하기 
+   - 설정시 추가해야할 속성
+      - android:screenOrientation="portrait"
+      - android:theme="@style/zxing_CaptureTheme"
+3. ScanOption 설정 시 captureActivity 속성에 1번에서 만든 클래스로 설정한다
