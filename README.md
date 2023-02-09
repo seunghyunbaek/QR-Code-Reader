@@ -8,6 +8,10 @@ QR 코드를 스캔하고 해당 링크로 이동할 수 있는 애플리케이�
 2. 스캔한 URL로 연결하기
 
 # Demo
+![Screenshot_20230209_093130_QR Code Reader](https://user-images.githubusercontent.com/39176041/217736895-b5cf6684-fce7-48c2-950b-b1ff36077683.jpg){: width="30px" height="30px"}
+![Screenshot_20230209_092933_QR Code Reader](https://user-images.githubusercontent.com/39176041/217737503-72101a05-f05f-4d2e-a987-0da794deaf7b.jpg){: width="30%" height="30%"}
+
+
 
 
 # Library 
